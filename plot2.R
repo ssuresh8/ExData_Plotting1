@@ -16,7 +16,7 @@ dat2$DateTime <- strptime(paste(dat2$Date, dat2$Time), "%Y-%m-%d %H:%M:%S")
 
 #send the plot to PNG
 
-png('plot2.png', width=480, height=480, bg='transparent')
+png('plot2.png', width=480, height=480)
 
 ##
 plot(dat2$DateTime, dat2$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")

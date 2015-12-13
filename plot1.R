@@ -12,7 +12,7 @@ dat2$Global_active_power <- as.numeric(as.character(dat2$Global_active_power))
 
 #send the plot to PNG
 
-png('plot1.png', width=480, height=480, bg='transparent')
+png('plot1.png', width=480, height=480)
 
 ##plot the histogram
 #Title:Global Active Power
